@@ -1,0 +1,67 @@
+<!Doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.min.css"/>
+    </head>
+    <body>
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-3">
+                    <span><button class="btn btn-success"  id ="employee-btn">ALL EMPLOYEES</button></span>
+                </div>
+                <div class="col-3">
+            <span><button class="btn btn-danger" id ="male-employee-btn">MALE EMPLOYEES</button></span>
+            </div>
+            <div class="col-3">
+        <span><button class="btn btn-secondary" id="female-employee-btn">FEMALE EMPLOYEES</button></span>
+        </div>
+<div class="col-1"></div>
+                
+             </div>
+             <div class="row mt-5">
+                
+                    <div class="col-md-5 mx-auto">
+                        <div class="small fw-light"></div>
+                        <div class="input-group">
+                            <input class="form-control border" type="search"  id="search-input">
+                        <label class="form-label" for="form1"></label>
+                        <button type="button" class="btn btn-primary">
+                            <i class="fas fa-search"></i>
+                          </button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <div class="row mt-3">
+            <div class="col-2"></div>
+            <div class="col-9">
+         <table class="table  mx-auto">
+            <thead>
+                <tr>
+                    <th>Empid</th>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>Email</th>
+                    <th>Contacts</th>
+                    <th>Gender</th>
+                    <th>Active</th>
+                    <th>Age</th>
+
+
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+         </table>
+         </div>
+         <div class="col-1"></div>
+         </div>
+       
+        <script src="script1.js">
+           
+        </script>
+           </body>
+</html>
